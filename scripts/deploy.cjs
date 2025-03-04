@@ -10,6 +10,13 @@ async function main() {
   await supplyChain.deployed();
 
   console.log("SupplyChain deployed to:", supplyChain.address);
+
+  // For testing purposes, set up some initial roles
+  const [owner] = await hre.ethers.getSigners();
+
+  // Log the contract address and owner address for easy reference
+  console.log("Contract deployed by:", owner.address);
+  console.log("\nAdd this address to your .env file as VITE_CONTRACT_ADDRESS");
 }
 
 main()
