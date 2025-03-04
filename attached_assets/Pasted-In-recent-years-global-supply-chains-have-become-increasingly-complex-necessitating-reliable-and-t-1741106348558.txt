@@ -1,0 +1,152 @@
+In recent years, global supply chains have become increasingly complex, necessitating reliable and transparent systems to manage the vast flow of information among stakeholders. (Ziolkowski et al., 2020) Despite rapid advancements in digital technology, traditional supply chain systems face significant challenges, particularly in transparency, efficiency, and security. These systems often operate with limited visibility across various stakeholders—manufacturers, distributors, and retailers—leading to inefficiencies, trust issues, and data discrepancies. Furthermore, issues of ethical sourcing and sustainability have intensified scrutiny on supply chains, making it crucial for companies to prove the legitimacy and ethical standards of their suppliers. To address these challenges, blockchain technology, with its decentralized, immutable nature, has emerged as a promising solution, offering end-to-end visibility, security, and accountability within the supply chain network.
+
+Blockchain is a distributed ledger technology that allows for secure, transparent, and tamper-proof transactions across multiple participants. Unlike traditional systems that rely on a central authority, blockchain operates in a decentralized environment, enabling stakeholders to verify transactions independently and maintain a trusted record of all interactions. BlockTrust, the proposed project, leverages blockchain to enhance trust and transparency within supply chains, thus reducing inefficiencies and increasing accountability among stakeholders. By implementing smart contracts, BlockTrust will enable automated role verification and product tracking, ensuring that all stakeholders can access reliable and verified data throughout the supply chain process.
+
+The concept of integrating blockchain into supply chain management has gained traction, with various organizations exploring its potential to address issues like fraud prevention, traceability, and compliance with environmental and ethical standards. However, many current implementations are limited in scope or lack user-friendliness, restricting widespread adoption. BlockTrust aims to fill these gaps by providing an accessible and comprehensive blockchain solution tailored for supply chains, specifically focusing on efficient role management, verification, and real-time product tracking. The project builds on existing blockchain principles while introducing innovations that make it adaptable for large-scale supply chains. This research is designed to demonstrate how BlockTrust can improve transparency, reduce operational friction, and foster trust among stakeholders, ultimately contributing to the advancement of supply chain management technology.
+
+2.1.2 Statement of the Problem
+
+Traditional supply chain systems suffer from inefficiencies, limited visibility, and lack of trust among stakeholders. (Ziolkowski et al., 2020) Although blockchain technology offers solutions to these challenges, current applications in supply chain management are often complex and not widely adopted, primarily due to their limited functionality and usability issues. Prior research has indicated that while blockchain can enhance transparency and security, there is a need for tailored systems that can handle specific roles and responsibilities within a supply chain, such as role verification, product tracking, and stage-based information updates. 
+
+BlockTrust seeks to address these gaps by introducing a blockchain-based platform designed specifically for supply chains. Unlike existing solutions, BlockTrust provides a user-friendly interface and a robust system for role verification through smart contracts. These smart contracts store essential data points, allowing stakeholders to track the product journey from manufacturing to retail seamlessly. By enabling real-time updates and role-based access, BlockTrust ensures transparency at every stage, ultimately improving efficiency and trust among all participants. This project aims to contribute a functional, accessible blockchain system that resolves the unaddressed problem of operational transparency within complex supply chains.
+
+ 
+ 2.1.3 Justification
+
+BlockTrust offers significant value in addressing current challenges in supply chain management:
+Significance to Community: The system provides consumers with transparent access to product origin and journey information, ensuring ethical and sustainable sourcing. For businesses, BlockTrust minimizes risks associated with fraud, enhancing trust and improving customer satisfaction.
+Innovations: BlockTrust’s novel approach to role verification and product tracking within the supply chain is designed to optimize blockchain technology specifically for this purpose, offering a more user-friendly and adaptable solution than existing platforms.
+Contribution to Knowledge: By bridging blockchain technology with supply chain management, this project will serve as a foundational model for similar implementations in various industries, providing valuable insights into scalable and practical blockchain applications.
+Economic Impact: By increasing efficiency and reducing operational costs through automation and transparency, BlockTrust contributes to overall economic benefits for companies operating within global supply chains.
+  
+ 2.1.4 Research Questions 
+
+1. How can blockchain technology be effectively adapted to enhance transparency and accountability in global supply chains?
+2. In what ways can role verification and real-time tracking improve the efficiency of supply chain operations?
+3. What are the potential impacts of a user-friendly blockchain interface on the adoption rates among stakeholders?
+
+
+ 2.1.5 Objectives 
+
+ 2.1.5.1 General Objective
+To enhance transparency, efficiency, and trust within global supply chains through the development of BlockTrust, a blockchain-based solution designed for role verification, product tracking, and secure data management.
+
+ 2.1.5.2 Specific Objectives
+
+i.	To implement a smart contract system for reliable role verification of supply chain participants.
+ii.	To develop a user-friendly interface for real-time product tracking and data access for all stakeholders.
+iii.	To evaluate the effectiveness of blockchain in reducing fraud and enhancing transparency within the supply chain.
+iv.	To assess the scalability and usability of the BlockTrust platform for diverse supply chain models.
+
+ 2.1.6 Anticipated Output 
+
+The expected outcomes of the BlockTrust project include:
+i.	A functional blockchain-based platform with smart contracts for supply chain role management.
+ii.	A user interface that allows stakeholders to track product status and verify transactions in real-time.
+iii.	Improved operational transparency and trust among supply chain stakeholders.
+iv.	Documentation and data analysis reports on the effectiveness and impact of the BlockTrust platform. 
+
+ 2.1.7 Conceptual/Theoretical Framework 
+The theoretical foundation of BlockTrust lies in blockchain technology's principles of decentralization, immutability, and transparency. The project draws on concepts from supply chain management, cryptography, and database management to develop a secure and reliable system for tracking and verifying data across multiple stakeholders
+ 
+2.2 CHAPTER TWO: LITERATURE REVIEW.
+2.2.1 Introduction
+
+Blockchain technology is recognized for its potential to solve long-standing issues in supply chain management, such as lack of transparency, inefficiency, and mistrust among stakeholders. Blockchain's decentralized and immutable nature enhances data security and accessibility, establishing it as a solution for transparent, verifiable supply chain processes (Mearian, 2018). The literature review discusses blockchain’s applications within supply chains, exploring its benefits, challenges, and implementation examples to set the groundwork for BlockTrust’s contribution to this field.
+2.2.2 Blockchain in Supply Chains: Benefits and Challenges
+Blockchain’s integration in supply chains offers key benefits, including:
+1. Transparency and Traceability: Blockchain creates a shared ledger, allowing real-time tracking of goods, as evidenced by IBM’s Food Trust, which enables companies like Walmart to track food from source to sale, enhancing safety (Kamath, 2018)ii14.
+2. Efficiency and Automation: Blockchain enables automation via smart contracts, reducing paperwork and processing times (Buterin, 2014), essential for streamlining processes such as customs clearance.iii14
+3. Enhanced Security: Blockchain’s immutable records safeguard data from tampering, critical in industries like supplychain, where counterfeit prevention is essential .iii14
+4. Cost Reduction: Studies suggest blockchain reduces long-term costs by minimizing intermediaries and improving operational efficiencies, achieving up to 20% cost savings (Kshetri, 2018).v
+
+Despite these advantages, several challenges limit blockchain adoption:
+
+1. Scalability: Public blockchains like Ethereum handle limited transactions per second, creating bottlenecks in large supply chains (Peters & Panayi, 2016).
+2. High Implementation Costs: The upfront investment in blockchain infrastructure and expertise can be prohibitive, especially for small to medium enterprises (Queiroz & Wamba, 2019).
+3. Interoperability: Integrating blockchain with legacy systems remains complex, hindering seamless data exchange (Duan et al., 2020).
+4. Regulatory Uncertainty: Blockchain’s decentralized framework complicates regulatory compliance, impacting adoption, particularly in tightly regulated industries (Carson et al., 2018).
+
+ 2.2.3 Real-World Applications
+
+Blockchain’s efficacy in supply chains has been demonstrated in several projects:
+i.	IBM Food Trust: This blockchain application in food supply chains has improved transparency and safety, allowing companies to trace food products in seconds.
+ii.	TradeLens by Maersk: A global shipping platform that enhances shipment tracking and reduces paperwork delays, accelerating customs clearances (IBM & Maersk, 2020).
+iii.	Everledger: This system ensures diamond authenticity, preventing fraud and promoting ethical sourcing (Shah, 2019).
+
+ 2.2.4 Gaps and Limitations in Research
+Research on blockchain in supply chains is promising but limited by several gaps. Most studies focus on blockchain’s theoretical benefits without addressing practical implementation challenges like scalability and interoperability. Moreover, limited research exists on the long-term economic impact of blockchain on supply chain efficiency and cost-effectiveness, and there is minimal exploration of user experience considerations. 
+ 
+2.3 CHAPTER THREE: MATERIALS AND METHODS
+2.3.1 Proposed Work
+
+The proposed work for the BlockTrust project aims to enhance transparency and trust within global supply chains by implementing a blockchain-based solution. The methodologies to be employed are to be structured to ensure a systematic approach to achieving the project objectives of role verification, product tracking, and secure data management. The project will involve developing a blockchain framework tailored for supply chain applications, which includes implementing smart contracts and creating a user-friendly interface for stakeholder interactions.
+
+The project is to commence with a thorough requirement analysis, followed by the design and implementation phases. Each phase will be documented in detail, allowing for reproducibility and verification of results.
+
+2.3.2 Requirement Analysis and Specification
+
+Software Requirements
+
+The following software tools are to be utilized for the development of the BlockTrust project:
+
+Front-End Development:
+•	Vue.js: A JavaScript library used for building the user interface, enabling a responsive and dynamic user experience.
+•	CSS: Used for styling the application to ensure an appealing and user-friendly interface.
+•	TypeScript: A superset of JavaScript that adds static types, enhancing code quality and maintainability.
+
+ Back-End Development:
+•	Node.js: A JavaScript runtime environment used for server-side programming, allowing for real-time data processing.
+•	Express.js: A web application framework for Node.js used to build RESTful APIs for handling client requests.
+•	Ethereum: A decentralized blockchain platform used for deploying smart contracts and managing transactions within the supply chain.
+•	Solidity: The programming language used for writing smart contracts on the Ethereum blockchain.
+
+Hardware Requirements
+
+The minimum required hardware specifications for the development environment included:
+
+- Processor: Intel Core i5 (or equivalent) with a minimum clock speed of 2.5 GHz.
+- RAM: At least 8 GB to ensure smooth operation of development tools and environments.
+- Storage: A minimum of 256 GB HDD for efficient data access and application deployment.
+- Network: Stable internet connection for accessing blockchain networks and cloud services.
+
+2.3.3 Conceptual Framework/Experimental/System Design
+
+The conceptual framework for the BlockTrust project will be designed to facilitate a clear understanding of the system's components and interactions. The system design will include the following elements:
+
+i.	Design of Forms
+
+- User Registration Form: To Capture essential user details for role verification, including name, email, and role type.
+- Product Tracking Interface: To display real-time updates on product journeys through the supply chain, including verification status and timestamps.
+- Role Management Dashboard: To Provide an overview of user roles and permissions within the system, allowing for easy management of stakeholder access.
+
+
+
+ii.	Coding
+
+The coding phase will involve implementation of the smart contracts using Solidity, the programming language for Ethereum smart contracts. The smart contracts will include functions for:
+
+- Role verification of supply chain participants.
+- Tracking product status and history.
+- Recording transactions securely on the blockchain.
+
+iii.	Functional Requirements
+
+The functional requirements for the BlockTrust system will include:
+
+- Real-Time Data Access: Users should be able to access real-time data regarding product journeys and role verifications.
+- Smart Contract Automation: The system should automatically execute transactions based on predefined conditions in smart contracts.
+- User-Friendly Interface:The application should provide an intuitive interface that simplifies stakeholder interactions with the blockchain.
+
+2.3.4 Experimental and Data Collection Procedures
+
+The experimental and data collection procedures will be designed to evaluate the performance and effectiveness of the BlockTrust platform in enhancing supply chain transparency. The procedures will include:
+
+1. Data Collection:
+   - User Feedback Surveys: It will be distributed to participants to assess the usability and accessibility of the system.
+   - Transaction Logs: It will be collected from the blockchain to analyze the frequency and success rates of transactions executed through smart contracts.
+   - Performance Metrics: Measured the system's response times, transaction processing speeds, and scalability under varying loads.
+
+2. Data Analysis:
+   - Quantitative Analysis: To Employ statistical methods to analyze survey responses and transaction logs, providing insights into user satisfaction and operational efficiency.
+   - Qualitative Analysis: To Conduct interviews with stakeholders to gather in-depth feedback on system usability and potential improvements.
