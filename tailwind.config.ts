@@ -45,11 +45,11 @@ export default {
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         chart: {
-          "1": "hsl(190, 100%, 50%)", /* Primary blue */
+          "1": "hsl(215, 85%, 25%)", /* Primary dark blue */
           "2": "hsl(45, 100%, 50%)", /* Gold */
-          "3": "hsl(190, 80%, 40%)", /* Darker blue */
+          "3": "hsl(215, 85%, 35%)", /* Medium blue */
           "4": "hsl(45, 80%, 40%)", /* Darker gold */
-          "5": "hsl(190, 60%, 30%)", /* Darkest blue */
+          "5": "hsl(215, 85%, 15%)", /* Darkest blue */
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
