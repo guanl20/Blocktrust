@@ -26,7 +26,7 @@ export default {
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
+          DEFAULT: "hsl(45, 100%, 50%)", /* Golden accent color */
           foreground: "hsl(var(--secondary-foreground))",
         },
         muted: {
@@ -45,11 +45,11 @@ export default {
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         chart: {
-          "1": "hsl(var(--chart-1))",
-          "2": "hsl(var(--chart-2))",
-          "3": "hsl(var(--chart-3))",
-          "4": "hsl(var(--chart-4))",
-          "5": "hsl(var(--chart-5))",
+          "1": "hsl(190, 100%, 50%)", /* Primary blue */
+          "2": "hsl(45, 100%, 50%)", /* Gold */
+          "3": "hsl(190, 80%, 40%)", /* Darker blue */
+          "4": "hsl(45, 80%, 40%)", /* Darker gold */
+          "5": "hsl(190, 60%, 30%)", /* Darkest blue */
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -64,20 +64,12 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
