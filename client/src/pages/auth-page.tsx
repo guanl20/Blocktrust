@@ -43,8 +43,15 @@ export default function AuthPage() {
     <div className="min-h-screen flex">
       <div className="flex-1 flex items-center justify-center">
         <Card className="w-[400px]">
-          <CardHeader>
-            <CardTitle>BlockTrust Platform</CardTitle>
+          <CardHeader className="space-y-4">
+            <div className="flex justify-center">
+              <img
+                src="/blocktrust-removebg-preview.png"
+                alt="BlockTrust Logo"
+                className="h-16 w-auto"
+              />
+            </div>
+            <CardTitle className="text-center">Welcome to BlockTrust</CardTitle>
           </CardHeader>
           <CardContent>
             <Tabs defaultValue="login">

@@ -4,7 +4,6 @@ import { Link } from "wouter";
 import { 
   LayoutDashboard, 
   Package, 
-  History,
   LogOut,
   User
 } from "lucide-react";
@@ -16,10 +15,14 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
     <div className="min-h-screen flex">
       {/* Sidebar */}
       <aside className="w-64 bg-sidebar border-r border-sidebar-border">
-        <div className="p-6">
-          <h1 className="text-2xl font-bold text-sidebar-foreground">BlockTrust</h1>
+        <div className="p-6 flex items-center justify-center">
+          <img
+            src="/blocktrust-removebg-preview.png"
+            alt="BlockTrust Logo"
+            className="h-8 w-auto"
+          />
         </div>
-        
+
         <nav className="px-4 py-2">
           <Link href="/">
             <Button variant="ghost" className="w-full justify-start gap-2 mb-2">
